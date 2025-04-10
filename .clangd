@@ -2,5 +2,5 @@ If:
   PathMatch: .*\.cpp
 
 CompileFlags:
-  Add: [-Wall, -Weffc++, -Wextra, -Wconversion, -Wsign-conversion, -std=c++20]
+  Add: [-Wall, -Weffc++, -Wextra, -Wconversion, -Wsign-conversion, -std=c++20, -stdlib=libc++, -lc++]
   Compiler: g++
